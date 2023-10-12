@@ -1,0 +1,28 @@
+{"intents": [
+  {
+    "tag": "greeting",
+    "patterns": ["Hi", "Hello", "Whats up", "Greetings", "Hey"],
+    "responses": ["Hello!", "Hi", "Hi there", "Good to see you"]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye"],
+    "responses": ["Have a nice day!", "See you later", "Bye bye"]
+  },
+  {
+    "tag": "about",
+    "patterns": ["Who are you?","What is your name?", "What are you doing?", "Tell me something about yourself"],
+    "responses": ["My name is Charlie, Im AI bot to help you with things"]
+  },
+  {
+    "tag": "help",
+    "patterns": ["Can you help me?", "Could you help me?", "I need help", "I need a support"],
+    "responses": ["Tell me what to do", "How can i help you?"]
+  },
+  {
+    "tag": "createaccount",
+    "patterns": ["I want to create account", "Can you help with account creating?", "How can I create account?"],
+    "responses": ["You can go on our website and create account", "Sure, I will guide You trough the process"]
+  }
+]
+}
